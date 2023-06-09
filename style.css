@@ -1,0 +1,22 @@
+body {
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.card {
+    border: 1px solid ;
+}
+
+.purchase {
+    display: flex;
+    justify-content: space-between;
+}
+
+.price {
+    display: flex;
+}
+

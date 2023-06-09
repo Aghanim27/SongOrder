@@ -7,10 +7,6 @@ body {
     min-height: 100vh;
 }
 
-.card {
-    border: 1px solid ;
-}
-
 .purchase {
     display: flex;
     justify-content: space-between;
@@ -20,3 +16,24 @@ body {
     display: flex;
 }
 
+.paymentBtn {
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-weight: 500;
+}
+
+.paymentBtn:hover{
+    background-color: rgb(35, 116, 221);
+}
+
+.cancelBtn {
+    opacity: 0.7;
+    border: 1px solid white;
+    font-weight: 500;
+}
+
+.cancelBtn:hover {
+    opacity: 1;
+}
